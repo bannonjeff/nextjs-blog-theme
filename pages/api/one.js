@@ -1,4 +1,6 @@
 export default function handler(req, res) {
+  console.log("one");
+  
   res.status(200).json({
     'foo': {
       'foo': true,
